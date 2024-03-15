@@ -130,7 +130,7 @@ export const transformationTypes = {
 	removeBackground: {
 		type: "removeBackground",
 		title: "Background Remove",
-		subTitle: "Removes the background of the image using AI",
+		subTitle: "This removes the background of the image using AI",
 		config: { removeBackground: true },
 		icon: "camera.svg",
 	},
@@ -191,3 +191,30 @@ export const defaultValues = {
 };
 
 export const creditFee = -1;
+
+// for the project
+
+// export const transformationTypes = {
+// 	sell: {
+// 		type: "sell",
+// 		title: "For Sale ",
+// 		subTitle: "Refine images by removing noise and imperfections",
+// 		config: { restore: true },
+// 		icon: "image.svg",
+// 	},
+// 	rent: {
+// 		type: "rent",
+// 		title: "Bicycle Rent/Leasing",
+// 		subTitle: "Post your bicycle items for renting",
+// 		config: { removeBackground: true },
+// 		icon: "camera.svg",
+// 	},
+// 	service: {
+// 		type: "service",
+// 		title: "Services/Repair",
+// 		subTitle: "Display details or your service to the community for patronage",
+// 		config: { fillBackground: true },
+// 		icon: "stars.svg",
+// 	},
+
+// }

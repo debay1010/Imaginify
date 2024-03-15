@@ -1,7 +1,7 @@
 import { Schema, models, model } from "mongoose";
 import { unique } from "next/dist/build/utils";
 
-interface User extends Document {
+interface IUser extends Document {
 	clerkId: string; // Unique identifier, required
 	email: string; // Unique email address, required
 	username: string; // Unique username, required
